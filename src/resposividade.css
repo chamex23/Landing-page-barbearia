@@ -1,0 +1,255 @@
+
+/*Resposividade*/
+
+
+  /*HEADER RESPONSIVIDADE*/
+@media only screen and (max-width: 768px) {
+
+  .header {
+    height: 60px;
+    width: 100%;
+    padding: 0 24px;
+    justify-content: space-between;
+  }
+
+  .header > img {
+    width: 60px;
+    height: 60px;
+    margin-right: 24px;
+  }
+
+  .links-header {
+    gap: 20px;
+    font-size: 16px;
+  }
+
+}
+
+@media only screen and (max-width: 680px) {
+  .header {
+    display: flex;
+    height: 90px;
+    flex-direction: column;
+  }
+
+  .header > img {
+    width: 50px;
+    height: 50px;
+    margin-right: 12px;
+  }
+
+  .links-header {
+    gap: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .bnt-header{
+    overflow: hidden;
+    opacity: 0;
+  }
+
+}
+
+ /*HOME RESPONSIVIDADE*/
+
+ @media only screen and (max-width: 768px) {
+
+  .container{
+    width: 100%;
+    height: 520px;
+  }
+
+  .container > img{
+      width: 100%; 
+      height: 100vh; 
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      z-index: -1; 
+  }
+
+  .container > h1 {
+    font-size: 26px;
+  }
+  
+  
+  .container > p {
+    font-size: 16px;
+    bottom: 10px; 
+  }
+  
+  .container .bnt-home {
+    width: 180px;
+    height: 44px;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+
+  .container-home{
+    position: relative;
+    top: 190px;
+  }
+  .container > h1 {
+    font-size: 16px;
+  }
+  
+  .container > img {
+    height: 100%;
+  }
+ 
+ 
+  
+  .container > p {
+    font-size: 10px;
+    bottom: 5px; /* Ajusta a posição do parágrafo */
+  }
+  
+  .container .bnt-home {
+    width: 160px;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 12px;
+  }
+}
+
+/*SOBRE RESPONSIVIDADE*/
+
+@media only screen and (max-width: 680px) {
+  .container-sobre {
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .images {
+    opacity: 0;
+    overflow: hidden;
+    height: auto;
+    margin-left: 0;
+    margin-top: 20px;
+    text-align: center;
+    display: none;
+  }
+
+  .text-sobre {
+    
+    width: 90%;
+    margin-top: 150px;
+    margin-right: 0;
+  }
+
+  .images > img:nth-child(1) {
+    margin-bottom: 10px;
+  }
+}
+
+/*SOBRE RESPONSIVIDADE*/
+
+@media only screen and (max-width: 768px){
+  .container-servicos{
+    width: 100%;
+    height: 1420px;
+  }
+
+  .modelos-service{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*CONTATO RESPONSIVIDADE*/
+
+@media only screen and (max-width: 680px){
+  .container-contato{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .inforBarber{
+    margin-bottom: 10px;
+  }
+
+  .container-contato >h1{
+    color: var(--white-color);
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    transform: rotate(0deg);
+    margin-bottom: 50px;
+    margin-top: 24px;
+  }
+
+  .redes-sociais{
+    margin-bottom: 10px;
+  }
+
+
+  .barbeiros{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*UNIDADE RESPONSIVIDADE*/
+
+@media only screen and (max-width: 680px){
+  
+  .container-unidade{
+   
+    width: 100%;
+    height: 620px;
+    justify-content: center;
+    align-items: center;
+
+    & h1{
+      font-size: 26px;
+      
+    }
+
+    .description-unidade{
+      width: 100%;
+    }
+
+    .img1:nth-child(1){
+      position: relative;
+      top: 50px;
+      left: 165px;
+
+    }
+
+    .img2:nth-child(2){
+      position: relative;
+      top: 50px;
+      right: 100px;
+      
+    }
+  
+  
+    .img3:nth-child(3){
+      position: relative;
+      top: 50px;
+      right: 365px;
+    
+    }
+
+     p{
+      background: var(--white-color);
+      text-align: center;
+      position: relative;
+      color: var(--primary-color);
+      position: relative;
+      top: 105px;
+      
+    }
+
+  } 
+    
+}
