@@ -216,27 +216,31 @@
 
     .description-unidade{
       width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .img1:nth-child(1){
       position: relative;
       top: 50px;
       left: 65px;
-     
+      display: none;
+
     }
 
     .img2:nth-child(2){
       position: relative;
       top: 50px;
       right: 200px;
-     
+      display: none;
     }
   
   
     .img3:nth-child(3){
       position: relative;
       top: 50px;
-      right: 465px;
+      margin-bottom: 16px;
     
     }
 
