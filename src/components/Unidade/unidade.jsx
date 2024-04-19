@@ -14,7 +14,7 @@ export default function Unidade(){
         
       <input style={{position: 'relative',top: 40, right: 20, width:30 }} 
      
-      type="radio" id='1' class="slide-controller" name="slide" checked />
+      type="radio" id='1' class="slide-controller" name="slide"/>
       <input style={{position: 'relative',top: 26.5, right: 4}} type="radio" id='2' class="slide-controller" name="slide" />
         <input style={{position: 'relative',top: 13.5, right:-11 }} type="radio" id='3' class="slide-controller" name="slide" />
 
