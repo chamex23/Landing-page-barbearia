@@ -1,0 +1,31 @@
+.bnt-header{
+  width: 211px;
+  height: 44px;
+
+  border-radius: 8px;
+  background: var(--Yellow-Primary, #F0B35B);
+  
+  cursor: pointer;
+  position: absolute;
+  right: 36px;
+  
+  color: var(--secondary-color);
+
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  transition: .5s ease;
+}
+
+.bnt-header:hover{
+  background: var(--Yellow-Primary, #bb8b47);
+}
+
+@media (max-width: 1900){
+  .bnt-header{
+    width: auto;
+    height: auto;
+  }
+}

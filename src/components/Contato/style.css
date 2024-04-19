@@ -1,0 +1,61 @@
+
+
+.container-contato{
+  width: 100%;
+  height: 100vh;
+  background: var(--primary-color);
+  color: var(--white-color);
+  display: flex;
+  padding-top: 90px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  > h1{
+    color: var(--white-color);
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: 7.59px;
+    transform: rotate(-90deg);
+    
+  }
+}
+
+.barbeiros{
+  display: flex;
+  gap: 32px;
+   
+}
+
+.inforBarber{
+  width: 100%;
+  height: 360px;
+  
+  p{
+    color: var(--Yellow-Primary, #F0B35B);
+    text-align: center;
+
+    /* H4 - Bold */
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+      
+    position: relative;
+    bottom: 50px;
+  }
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.redes-sociais{
+  display: flex;
+  gap: 30px;
+  
+}

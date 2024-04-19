@@ -1,0 +1,21 @@
+:root{
+  --primary-color: #0d121e;
+  --secondary-color: #080b16;
+  --yellow-color: #f0b35b;
+  --white-color: #fff;
+  --gray-color: #fafafa;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  background-color: var(--primary-color);
+  font-family: 'Poppins', sans-serif;
+  color: var(--white-color);
+}
+
