@@ -50,7 +50,7 @@
 
 .slides-list{
   display: block;
-  width: 100%;
+  width: 585px;
   height: 100%;
 }
 
@@ -82,31 +82,16 @@
 .description-unidade{
   display: flex;
   gap: 15px;
-  border: 1px solid red;
 }
 
-.redes-sociais-unidade{
+.info-dev{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  margin-top: -70px;
-}
 
-.redes-sociais-unidade-icon{
-  display: flex;
-  position: relative;
-  top: 100px;
-  gap: 15px;
-}
-
-.redes-sociais-unidade p{
-  
-    color: #0d121e;
-    z-index: 1;
-    text-align: center;
-    position: relative;
-    top: 150px;
   
 }
+
+
 
