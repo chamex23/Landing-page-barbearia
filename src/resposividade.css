@@ -232,10 +232,16 @@
       position: relative;
       color: var(--primary-color);
       position: relative;
-      top: 105px;
+      top: 135px;
       
     }
 
   } 
+
+  
     
+}
+.redes-sociais-dev{
+  height: 120px;
+  margin-top: 50px;
 }

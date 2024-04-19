@@ -48,6 +48,7 @@ export default function Unidade(){
 
       <div className="info-dev">
       
+      
        <p>&copy; Site desenvolvido por Karillo Monteiro, todos os direitos reservados</p>
        <div className="redes-sociais-dev">
               <a href="#">

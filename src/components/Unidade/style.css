@@ -18,7 +18,7 @@
     font-family: Poppins;
     font-size: 46px;
     font-weight: 700;
-    margin-top: 50px;
+    margin-top: 90px;
   }
 
 
@@ -89,9 +89,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: var(--white-color);
 
-  
+  & p{
+    text-align: center;
+    position: relative;
+    color: var(--primary-color);
+    top: 160px;
+    
+  }
 }
 
+.redes-sociais-dev{
+  height: 90px;
+  margin-top: 70px;
+}
 
 
